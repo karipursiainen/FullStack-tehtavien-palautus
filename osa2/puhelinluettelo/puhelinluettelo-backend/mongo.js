@@ -10,7 +10,7 @@ const nimi = process.argv[3]
 const numero = process.argv[4]
 
 const url =
-  `mongodb+srv://Kari-FullStack:Sepanmaki17743@cluster0.xvvgp.mongodb.net/person-app?retryWrites=true`
+  `mongodb+srv://Kari-FullStack:<password>@cluster0.xvvgp.mongodb.net/person-app?retryWrites=true`
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 
